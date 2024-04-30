@@ -1,0 +1,12 @@
+# Basepath to consult the API {{base-url}}{{basepath}}/parking
+basepath: /api
+spring:
+  data:
+    # Database properties
+    mongodb:
+      host: mongodb-container
+      port: 27017
+      database: parking-lot-management
+server:
+  port: '9090'
+
